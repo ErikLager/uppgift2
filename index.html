@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up">
+    <meta name="keywords" content="Sign up, asgard, form, create account, log in, cloudservice">
     <title>Document</title>
+    <link rel="stylesheet" href="icons-1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -17,13 +20,13 @@
         <div class="col right">
             <h1>Sign up to Asgard</h1>
             <h2 class="account">Already have an account? <a href="#">Log in</a></h2>
-            <form>
+            <form>                
                 <div class="formsection">
-                    <button><img src="img/Google__G__Logo.svg.png" alt="">Sign in with Google</button>
-                    <button><img src="img/4202110facebooklogosocialsocialmedia-115707_115594.png" alt=""></button>
-                    <button><img src="img/giant-apple-logo-bw-e1509805138392.png" alt=""></button>
-                    <h2 class="or">-or-</h2>
+                    <a href="#" class="buttongoogle"><i class="bi bi-google">Sign in with google</i></a>
+                    <a href="#" class="button"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="button"><img class="applelogo" src="img/giant-apple-logo-bw-e1509805138392.png" alt="apple logo"></a>
                 </div>
+                <h2 class="or">-or-</h2>
                 <div class="formsection">
                     <label for="name">Full name</label>
                     <input type="text">
@@ -39,14 +42,16 @@
                 <div class="formsection">
                     <h3>Password Strength</h3>
                     <div class="passwordsecurity">
-                        <div class="bar green"></div>
-                        <div class="bar green"></div>
-                        <div class="bar green"></div>
-                        <div class="bar gray"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
                     </div>
                 </div>
-                <input type="checkbox">
-                <p class="checkboxtext">By creating account, you agree to accept our <a href="#">Privacy Policy, Terms of Service</a> and <a href="#">Notification settings</a></p>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <p class="checkboxtext">By creating account, you agree to accept our <a href="#">Privacy Policy, Terms of Service</a> and <a href="#">Notification settings</a></p>
+                </div>
                 <input type="button" value="Create Account">
             </form>
         </div>

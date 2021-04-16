@@ -1,0 +1,23 @@
+.passwordsecurity .bar{
+    background-color: green;
+    flex: 1;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.passwordsecurity{
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.passwordsecurity .bar{
+    background-color: green;
+    flex: 1;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.passwordsecurity .bar:last-of-type{
+    background-color: gray;
+}

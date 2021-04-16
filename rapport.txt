@@ -1,4 +1,3 @@
-
 15/4-21
     Först så skrevs html-koden, i ordningen av två kolumner, med den vänstra tom (bilden ligger i css) och registreringen i högerspalten.
     Nu så skapades h1 taggen "Sign up to Asgard" med under titeln "Already have an accound? Log in"
@@ -18,3 +17,7 @@
 
     
 16/4-21
+    Idag så har mobilanpassningen implementerats. 
+    Det har tillkommit några meta taggar för SEO
+    css-koden har delats upp i olika filer och lags i en mapp.
+    Animation har också implementerats
