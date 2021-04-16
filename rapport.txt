@@ -1,0 +1,20 @@
+
+15/4-21
+    Först så skrevs html-koden, i ordningen av två kolumner, med den vänstra tom (bilden ligger i css) och registreringen i högerspalten.
+    Nu så skapades h1 taggen "Sign up to Asgard" med under titeln "Already have an accound? Log in"
+    Efter detta så skapades alla labels, input och knappar.
+    Sedan så skapades "Password Strength" raden med styrkan på lösenordet.
+
+    När all html var "klar" så var det tid för css. display flex var det första steget &
+    eftersom html-koden var strukturerad som den var så var det enkelt att lägga allt där det ska vara men hjälp av flex.
+    Stylingen av knapparna var bara till att försöka sig fram. Är detta rätt storlek? Rätt färg?
+
+    Det som är kvar är: 
+    * Design på inloggningsknapparna 
+    * Texten vid checkboxen
+    * Animation
+    * Mobilanpassning
+    * SEO
+
+    
+16/4-21
