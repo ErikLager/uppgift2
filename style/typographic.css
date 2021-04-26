@@ -1,3 +1,7 @@
+h1{
+    animation: rgb 5s alternate infinite;
+}
+
 .account{
     margin-bottom: 3rem;
 }

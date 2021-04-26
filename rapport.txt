@@ -8,16 +8,43 @@
     eftersom html-koden var strukturerad som den var så var det enkelt att lägga allt där det ska vara men hjälp av flex.
     Stylingen av knapparna var bara till att försöka sig fram. Är detta rätt storlek? Rätt färg?
 
-    Det som är kvar är: 
-    * Design på inloggningsknapparna 
-    * Texten vid checkboxen
-    * Animation
-    * Mobilanpassning
-    * SEO
-
     
 16/4-21
     Idag så har mobilanpassningen implementerats. 
     Det har tillkommit några meta taggar för SEO
     css-koden har delats upp i olika filer och lags i en mapp.
     Animation har också implementerats
+
+23/4-21
+    De taggar som har använts för SEO optimering är:
+        <meta name="description" content="Sign up for free for asgard cloudservice">
+        <meta name="keywords" content="Sign up, asgard, form, create account, log in, cloudservice">
+        <meta name="author" content="Erik L">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    Den understa: viewport, för det möjligt att skriva sådan css att sidor kommer se bra ut på små skärmar, så som mobiler
+    och ibland smartklockor. 
+    Om någon söker på "cloudservice" kommer google att se att jag har "cloudservice" i min "keywords" tag, och
+    då kommer min sida komma högre, hade inte varit effektivt om orelevanta sidor kom upp, som en sida för byggare.
+
+    Den första syns när man söker på google, så om sidan dyker upp kommer det kanske stå:
+
+        Asgard
+        Sign up for free for asgard cloudservice
+
+    Med den övre raden är en länk och den undre är info om sidan som syns på google
+    Den tredje är vem som har skrivit koden till sidan.
+
+    Meta taggar är inte allt som går att använda för SEO, saker så som semantisk html kod, använder <aside> när något ligger till sidan,
+    <nav> runt en meny som ligger högst upp eller till vänster, <article> om det är blogg/nyhets sida 
+    eller <form> om det finns något typ av formulär för antingen registrering eller för kontakt hjälper också SEO.
+    Sidan ska också vara anpassad för skärmläsare.
+    Finns det bilder på sidan så ska de inte vara onödigt stora på lagringen, exempel, om det finns en bakgrundsbild
+    på hemsidan behöver den inte vara 2160x3820 pixlar, detta kommer att ta lång tid att ladda in, utan då kanske
+    det räcker med 720x1280 eftersom den bara ska vara i bakgrunden och andra element kommer förmodligen ligga över den.
+    Bilder ska också ha en alt tag på sig, ifall bilden flyttas, byter namn eller av någon anledning inte kan laddas in
+    så ska det endå vara möjligt att se vad som var tänkt att visas på bilden, alt taggar hjälper också skärmläsare.
+    All kod ska ha en användning. Något annat som drar ner SEO är kod som inte används på sidan.
+    Något som också är bra att ha är att andra sidor har en länk till denna sidan, då ser google att denna sidan
+    blir refererad av andra sidor och då kommer öka SEO poängen.
+    Så sammanfattningen på SEO är att sidan ska ta så lite minne som möjligt
