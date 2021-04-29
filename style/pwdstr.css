@@ -1,23 +1,13 @@
-.passwordsecurity .bar{
-    background-color: green;
-    flex: 1;
-    margin-right: 5px;
-    border-radius: 10px;
-}
-
 .passwordsecurity{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     height: 10px;
-    display: flex;
-    flex-direction: row;
 }
-
-.passwordsecurity .bar{
+.bar{
     background-color: green;
-    flex: 1;
-    margin-right: 5px;
-    border-radius: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
-
-.passwordsecurity .bar:last-of-type{
+.bar:last-of-type{
     background-color: gray;
 }
